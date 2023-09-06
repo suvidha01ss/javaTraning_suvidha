@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            border: 2px solid black;
+        
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+           
+            position: relative;
+            animation-name: example;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;/*may be used numbers animation-iteration-count:3 */
+            animation-direction: normal;
+            /*animation: example 5s linear 3s infinite alternate;*/
+
+        }
+        div:hover{
+            background-color: yellow;
+            height: 400px;
+            width: 400px;
+        }
+        
+        @keyframes example{
+            0%{
+                background-color:blue;
+                left: 0px;
+                top: 0px;
+            }
+            25%{
+                background-color:orangered;
+                left: 400px;
+                top: 0px;
+            }
+            50%{
+            
+                background-color:green;
+                left: 400px;
+                top: 400px;
+        
+            }
+            75%{
+                background-color:black;
+                left: 0px;
+                top: 400px;
+         
+            }
+            100%{
+                background-color: blue;
+                left: 0px;
+                top: 0px;
+            }
+
+        }
+    </style>
+    
+
+</head>
+<body>
+    <h1>CSS Animation</h1>
+    <div></div>
+    
+</body>
+</html>

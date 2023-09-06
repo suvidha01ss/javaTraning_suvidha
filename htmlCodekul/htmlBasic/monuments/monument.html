@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monument2</title>
+    <style>
+        nav{
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-between;
+            position: fixed;
+            width: 98%;
+            background-color: burlywood;
+            z-index: 1000;
+            height: 80px;
+        
+        
+        
+        }
+        ul{ display: flex;
+            list-style: none;
+            gap: 10px;
+        
+        }
+       ul img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .header{
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 2px;
+            padding: 5px;
+        }
+        .box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8
+        {
+            border: 2px solid black;
+            height: 200px;
+            width: 300x;
+        }
+        .box1{
+            margin-top: 80px;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            border: 2px solid black ;
+            position: relative;
+        }
+        .box2{
+
+            margin-top: 80px;
+            position: sticky;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        
+        }
+        .box3{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            border: 2px solid black;
+            height: 200px;
+        }
+        .box4{
+            
+        }
+       
+        .box9{
+        
+            grid-column-start: 2;
+            grid-column-end: 5;
+            border: 2px solid black;
+            height: 200px;
+        }
+       
+        .box10{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            border: 2px solid black;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href=""><img src ="img/monument.jpg">Logo</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li>  <a href="">Contact Us</a></li>
+                <li> <a href="">Services</a></li>
+                <li> 
+                    <a href=""><button>LogIn</button></a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header">
+          <div class="box1">1</div>
+          <div class="box2">2
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus sed nihil suscipit voluptatibus odio repudiandae accusantium voluptatum quis esse neque consequuntur magnam, pariatur veniam magni nemo sequi cumque facilis repellat.</p>
+          </div>
+          <div class="box3">3
+              
+          </div>
+          <div class="box4">4
+            
+          </div>
+          <div class="box5">5</div>
+          <div class="box6">6</div>
+          <div class="box7">7</div>
+          <div class="box8">8</div>
+          <div class="box9">9</div>
+          <div class="box10">10</div>
+        </div>
+    </div>
+    
+</body>
+</html>

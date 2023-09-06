@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FigmaJobs</title>
+    <style>
+        .maincontainer{
+            border: 2px solid black;
+            min-height: 1000px;
+            width: 100%;
+            overflow: hidden;
+    
+        }
+       
+        .logo
+        {
+            display: flex; 
+            gap: 5px;
+            list-style: none;
+        }
+        .menubar
+        {
+            display: flex; 
+            gap: 10px;
+            list-style: none; 
+            color: black;
+        }
+
+        .login{
+         
+            background-color: orangered;
+            border: 1px solid orangered;
+            border-radius: 5px;
+        }
+        .header{
+        
+           margin-top:60px;
+            height: 300px;
+            width: 100%;
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: lightgray;
+            
+        
+        }
+        .box2{
+            border: 1px solid grey;
+            grid-column-start: 1;
+            grid-column-end: 3;
+           
+         
+        }
+        .box3 img{
+            height: 250px;
+            width: 250px;
+        }
+        .box4{
+         
+            border: 1px solid black;
+            height: 40px;
+            justify-content: space-evenly;
+        
+        }
+        .search{
+            background-color: aqua;
+            height: 30px;
+            width: 100px;
+            border-radius: 10px;
+        }
+        .subcontainer1{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-left: 250px;
+            justify-content: space-evenly;
+            margin-top: 50px;
+            gap: 500px;
+            
+        }
+        .browse{
+            height: 30px;
+            width: 300px;
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+
+        }
+        .see{
+            margin-top: 20px;
+            background-color: aqua;
+            height: 30px;
+            width: 100px;
+            border-radius: 10px;
+
+        }
+
+        .subcontainer2{
+            border:1x solid black;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            justify-content: space-evenly;
+            gap: 10px;
+            margin-top: 30px;
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+        .boxx1,.boxx2,.boxx3,.boxx4,.boxx5,.boxx6,.boxx7,.boxx8,.boxx9,.boxx10,.boxx11,.boxx12{
+            border: 1px solid black;
+            height: 170px;
+            width: 170px;
+            background-color: lightgray;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        
+        }
+        img{
+            border: 1px solid black;
+            height: 50px;
+            width: 50px;
+            margin-top: 20px;
+            padding: 10px;
+        }
+        h4{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="maincontainer"> 
+            <nav class="navigation">
+                <ul class="logo">
+                    <li><img src="/img/logo.png"></li>
+                    <li>JOBS</li>
+                </ul>
+                <ul class="menubar">
+                    <li><a href="">Jobs</a></li>
+                    <li><a href="">Companies</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+
+              <ul>
+                  <button>Sign In</button>
+                  <button class="login">Create Account</button>
+              </ul>
+            </nav>
+
+              <div class="header">
+                  <div class="box2">
+                    <h1>Millions of <span style="color:rgb(21, 182, 168);">jobs</span>  for you.<br><span style="color: orangered;">Verified</span> by us.</h1>
+                  </div>
+
+                  <div class="box3">
+                    <a href=""><img src="/img/Rectangle.png"></a> 
+                  </div>
+
+                  <div class="box4">
+                      <input type="text" placeholder="Search by Keyword">
+                      <select>
+                          <option>Dhaka,Bangladesh</option>
+                          <option>Delhi,India</option>
+                          <option>Colombo,Shrilanka</option>
+                      </select>
+                      <button class="search">Search</button>
+                  </div>
+                    
+              </div>
+
+            <div class="container2">
+                <div class="subcontainer1">
+                    <h2 class="browse">Browse Category</h2>
+                    <button class="see"><a href="">See All-></a></button>
+
+                </div>
+
+                <div class="subcontainer2">
+                    <div class="boxx1"><img src="accounting.png"><h4>Accounting & Finance</h4></div>
+                    <div class="boxx2"><img src="sales.png"><h4>Sales & Marketting</h4></div>
+                    <div class="boxx3"><img src="Bussiness.png"> <h4>Business Development</h4></div>
+                    <div class="boxx4"><img src="hospitality.png"><h4> Hospitality & Hospital</h4></div>
+                    <div class="boxx5"><img src="telecomunication.png"> <h4>IT & Telecom</h4></div>
+                    <div class="boxx6"><img src="motor.png"><h4>Motor Technician</h4></div>
+                    <div class="boxx7"><img src="data.png"><h4>Data Entry & Operator</h4></div>
+                    <div class="boxx8"><img src="Customer.png"><h4>Customer Support</h4></div>
+                    <div class="boxx9"><img src="garments.png"><h4>Garments & Textile</h4></div>
+                    <div class="boxx10"><img src="medical.png"><h4>Medical & Pharma</h4></div>
+                    <div class="boxx11"><img src="food.png"><h4>Food & Beverage</h4></div>
+                    <div class="boxx12"><img src="security.png"><h4>Security & Service</h4></div>
+
+                </div>
+            </div>
+
+            <div class="container3">
+                <div class="subcontainer3">
+                    <h2 class="browse">Hot job offers</h2>
+
+                </div>
+                <div class="subcontainer">
+                    <h2 class="browse">241 offers</h2>
+                    <button class="see"><a href="">All offers-></a></button>
+
+                </div>
+
+
+            </div>
+
+              
+
+              
+
+               
+
+                    
+              
+               
+               
+
+    </div>
+</body>
+</html>

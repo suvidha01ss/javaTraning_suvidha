@@ -1,0 +1,23 @@
+.container{
+    justify-content: space-between;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    min-height: 200px;
+    min-width: 600px;
+    border: 2px solid red;
+
+
+}
+.box1,.box2,.box3,.box4,.box5{
+    border: 2px solid black;
+    
+    height: 300px;
+    width: 300px;
+}
+.box1{
+    width: 800px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

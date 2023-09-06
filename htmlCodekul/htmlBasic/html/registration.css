@@ -1,0 +1,19 @@
+
+ body{
+     gap: 20px;
+     align-content: center;
+     text-align: center;
+ }
+ .container{
+     min-height: 40px;
+     min-width: 60px;
+     border-style: solid;
+     border-color: black;
+     background-color: ghostwhite;
+     align-items: center;
+     align-content: center;
+
+ }
+ h1{
+     font-style: normal;
+ }
